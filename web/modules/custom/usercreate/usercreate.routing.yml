@@ -1,0 +1,7 @@
+usercreate.form:
+ path: '/create-user'
+ defaults:
+  _title: 'Create User'
+  _form: '\Drupal\usercreate\Form\UsercreateForm'
+ requirements:
+  _permission: 'access content'
